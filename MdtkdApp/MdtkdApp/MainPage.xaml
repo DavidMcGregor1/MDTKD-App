@@ -16,13 +16,13 @@
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Master Downer's ITC app"
+                Text="Master Downer's TaeKwonDo"
                 SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
+                FontSize="22"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Welcome to .NET Multi-platform App UI"
+                Text="For events click below:"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Welcome to dot net Multi platform App U I"
                 FontSize="18"
@@ -30,7 +30,7 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me"
+                Text="Events"
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Center" />

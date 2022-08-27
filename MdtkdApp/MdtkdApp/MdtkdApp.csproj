@@ -52,4 +52,10 @@
 	  <None Remove="Resources\Images\mdtkdlogo_190x.png" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <MauiXaml Update="EventsPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
 </Project>

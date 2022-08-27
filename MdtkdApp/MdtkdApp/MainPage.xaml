@@ -10,13 +10,13 @@
             VerticalOptions="Center">
 
             <Image
-                Source="dotnet_bot.png"
+                Source="mdtkdlogo_190x.png"
                 SemanticProperties.Description="Cute dot net bot waving hi to you!"
                 HeightRequest="200"
                 HorizontalOptions="Center" />
 
             <Label
-                Text="Hello, World!"
+                Text="Master Downer's ITC app"
                 SemanticProperties.HeadingLevel="Level1"
                 FontSize="32"
                 HorizontalOptions="Center" />

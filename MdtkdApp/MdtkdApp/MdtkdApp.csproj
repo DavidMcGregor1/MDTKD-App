@@ -53,21 +53,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Settings.xaml.cs">
-	    <DependentUpon>Settings.xaml</DependentUpon>
+	  <ProjectReference Include="..\MdTkdServices\MdTkdServices.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="Pages\SettingsPage.xaml.cs">
+	    <DependentUpon>SettingsPage.xaml</DependentUpon>
 	  </Compile>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="Settings.xaml">
+	  <MauiXaml Update="Pages\SettingsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="EventsPage.xaml">
+	  <MauiXaml Update="Pages\EventsPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Model\" />
 	</ItemGroup>
 
 </Project>

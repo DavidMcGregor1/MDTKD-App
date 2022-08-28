@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MdtkdApp.SettingsPage"
+             Title="Settings">
+    <VerticalStackLayout VerticalOptions="Start">
+        <Label Text="Student Login Details" VerticalOptions="Start" HorizontalOptions="Center" />
+
+        <HorizontalStackLayout>
+        <Label Margin="5,9,0,2"  Text="Username:"/>
+            <Entry Margin="5,0,0,2" Placeholder="enter your username" BackgroundColor="AliceBlue"/>
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Margin="5,9,0,2" Text="Password:"/>
+            <Entry Margin="5,0,0,2" Placeholder="enter your password" IsPassword="True" BackgroundColor="AliceBlue"/>
+        </HorizontalStackLayout>
+        
+        <Button Margin="15,0,15,0"  Text="Validate Login" IsEnabled="False"  />
+
+        <Label Margin="0,15,0,0" Text="Other Settings" VerticalOptions="Start" HorizontalOptions="Center" />
+    </VerticalStackLayout>
+</ContentPage>

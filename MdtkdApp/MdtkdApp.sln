@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31611.283
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MdtkdApp", "MdtkdApp\MdtkdApp.csproj", "{07438895-E568-4B15-A896-42AF5ADC9A60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdTkdServices", "MdTkdServices\MdTkdServices.csproj", "{8C6C28D0-29FF-47F5-9F42-C5DE4331FC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdTkdServices.Test", "MdTkdServices.Test\MdTkdServices.Test.csproj", "{AF73CA1A-FE09-488D-8F40-B9F1D14FD50C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{07438895-E568-4B15-A896-42AF5ADC9A60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07438895-E568-4B15-A896-42AF5ADC9A60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07438895-E568-4B15-A896-42AF5ADC9A60}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8C6C28D0-29FF-47F5-9F42-C5DE4331FC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C6C28D0-29FF-47F5-9F42-C5DE4331FC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C6C28D0-29FF-47F5-9F42-C5DE4331FC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C6C28D0-29FF-47F5-9F42-C5DE4331FC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF73CA1A-FE09-488D-8F40-B9F1D14FD50C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF73CA1A-FE09-488D-8F40-B9F1D14FD50C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF73CA1A-FE09-488D-8F40-B9F1D14FD50C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF73CA1A-FE09-488D-8F40-B9F1D14FD50C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

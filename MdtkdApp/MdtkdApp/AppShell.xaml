@@ -5,10 +5,19 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:MdtkdApp"
     Shell.FlyoutBehavior="Disabled">
-
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
-
+    
+    <TabBar>
+        <Tab Title="Home"
+             Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate local:MainPage}" />
+        </Tab>
+        <Tab Title="Events"
+             Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate local:EventsPage}" />
+        </Tab>
+        <Tab Title="Settings"
+             Icon="dotnet_bot.png">
+            <ShellContent ContentTemplate="{DataTemplate local:SettingsPage}" />
+        </Tab>
+    </TabBar>
 </Shell>

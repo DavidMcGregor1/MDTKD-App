@@ -58,7 +58,7 @@
 
 	<ItemGroup>
 
-		<MauiXaml Update="EventDetailsPage.xaml">
+		<MauiXaml Update="Pages\EventDetailsPage.xaml">
 			<Generator>MSBuild:Compile</Generator>
 		</MauiXaml>
 		

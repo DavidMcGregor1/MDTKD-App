@@ -13,5 +13,30 @@
             Text="Next Event: Tournament, Sept 18"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+
+        <Button
+                x:Name="testEvent1"
+                Text="Tournament, Sept 18
+            Click for details"
+            
+                Clicked="EventClicked"
+                HorizontalOptions="Center" />
+        <Button
+                x:Name="testEvent2"
+                Text="Patterns course, Oct 21
+            Click for details"
+            
+                Clicked="EventClicked"
+                HorizontalOptions="Center" />
+        <Button
+                x:Name="testEvent3"
+                Text="Black belt grading, Dec 04
+            Click for details"
+            
+                Clicked="EventClicked"
+                HorizontalOptions="Center" />
+
+
     </VerticalStackLayout>
 </ContentPage>

@@ -6,4 +6,15 @@ public partial class EventsPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+
+	private void EventClicked(object sender, EventArgs e)
+	{
+        App.Current.MainPage = new NavigationPage(new EventDetailsPage());
+
+    }
+
+
+
+
 }

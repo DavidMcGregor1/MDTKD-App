@@ -37,6 +37,19 @@
                 Clicked="EventClicked"
                 HorizontalOptions="Center" />
 
+        <ListView
+                 ItemsSource="{Binding TheEvents}">
+            
+            <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Label 
+                           Text="{Binding Name}"
+                           FontAttributes="Bold" />
+                </ViewCell>
+            </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
 
     </VerticalStackLayout>
 </ContentPage>
